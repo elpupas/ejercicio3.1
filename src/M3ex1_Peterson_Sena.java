@@ -20,6 +20,11 @@ public class M3ex1_Peterson_Sena {
        System.out.println("escriba su edad");
        edad = entrada.nextInt();
        
+       if(edad <= 0 ) {
+    	   System.out.println("Digite una edad correcta");
+    	   edad = entrada.nextInt();
+       }
+       
        System.out.println("Su nombre es " + nom + " " + cog + " con " + edad 
     		   + " años");
        
